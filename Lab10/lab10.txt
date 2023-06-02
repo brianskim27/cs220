@@ -1,0 +1,24 @@
+1. The order of print statements is inconsistent because "In child" is able to be printed after the else statement that prints "In parent".
+2. Before calling the sleep function, the program printed "In parent" before "In child", but after calling the sleep function, the program prints "In child" before "In parent"
+3. 3012382 and 3012382
+4. 3013298 and 3013298 
+
+1. Line 1 is printed two times and Lines 2,3, and 4 are printed four times.
+2. 3017286: 3004872 Line 1
+3017286: 3004872 Line 2
+3017287: 3017286 Line 1
+3017288: 3017286 Line 2
+3017286: 3004872 Line 4
+3017287: 3017286 Line 2
+3017289: 3017286 Line 3
+3017288: 3017286 Line 4
+3017290: 3017287 Line 2
+3017291: 3017288 Line 3
+3017287: 1 Line 4
+3017290: 3017287 Line 4
+3017292: 3017287 Line 3
+3017293: 3017290 Line 3
+The parent pid is 1 for some processes because there is no parent process.
+
+1. child pid = 3020041, parent pid = 3020040
+My pid is 3020041, parent pid is 3020040

